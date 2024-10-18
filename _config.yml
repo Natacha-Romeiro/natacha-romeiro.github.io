@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: ""
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: ""
 
 # Title of the Site
 title: What A Theme
@@ -15,7 +15,7 @@ site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: ""
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
@@ -27,7 +27,7 @@ facebook_username: thedevslot
 twitter_username: thedevslot
 instagram_username: thedevslot
 linkedin_username: thedevslot
-github_username:  thedevslot
+github_username: thedevslot
 youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
 reddit_username: /
 behance_username: /
@@ -67,21 +67,22 @@ compress_html:
   clippings: all
 
 # Defaults
-defaults:
-  -
-    scope:
-      type: 'posts'
-    values:
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
-    values:
-      layout: page
+# Temporariamente comentado para testar se não há conflito com layouts ou escopo
+# defaults:
+#   -
+#     scope:
+#       type: 'posts'
+#     values:
+#       layout: post
+#       post-image: ""
+#       description: ""
+#       tags:
+#         - ""
+#   -
+#     scope:
+#       type: 'pages'
+#     values:
+#       layout: page
 
 # Exclude
 exclude:
