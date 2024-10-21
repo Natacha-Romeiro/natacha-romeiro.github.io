@@ -45,7 +45,7 @@ author-name: Natacha Romeiro
 # URL for the Image of the Author
 author-image: /assets/images/perfil.png
 # 60 Words About the Author
-author-about: Natural de **São Paulo, Brasil**, tenho fome por conhecimento – sobre mim mesma e sobre o mundo. **Amante da natureza**, especialmente praias, um dos meus  hobbies é me desconectar e acampar. **Atleta amadora**, concílio a prática de esportes com minha rotina pesada. **Observadora**, gosto de admirar a arte e o movimento humano. **Sobrecarregada**, busco sempre por processos que possam facilitar minha vida. **Curiosa**, estou sempre atenta ao movimento da sociedade e às inovações tecnológicas. 
+author-about: Natural de **São Paulo, Brasil**, tenho fome por conhecimento – sobre mim mesma e sobre o mundo. **Amante da natureza**, especialmente praias, um dos meus  hobbies é me desconectar e acampar. **Atleta amadora**, concílio a prática de esportes com minha rotina pesada. **Observadora**, gosto de admirar a arte e o movimento humano. **Estratégica**, busco sempre por processos que possam facilitar minha vida. **Curiosa**, estou sempre atenta ao movimento da sociedade e às inovações tecnológicas. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/Natacha-Romeiro
 
@@ -65,24 +65,6 @@ permalink: "blog/:title"
 # Compress
 compress_html:
   clippings: all
-
-# Defaults
-# Temporariamente comentado para testar se não há conflito com layouts ou escopo
-# defaults:
-#   -
-#     scope:
-#       type: 'posts'
-#     values:
-#       layout: post
-#       post-image: ""
-#       description: ""
-#       tags:
-#         - ""
-#   -
-#     scope:
-#       type: 'pages'
-#     values:
-#       layout: page
 
 # Exclude
 exclude:
